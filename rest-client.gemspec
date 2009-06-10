@@ -12,10 +12,11 @@ Gem::Specification.new do |s|
     s.files = %w(Rakefile README.rdoc rest-client.gemspec
                  lib/rest_client.rb lib/restclient.rb
                  lib/restclient/request.rb lib/restclient/response.rb
-                 lib/restclient/exceptions.rb lib/restclient/resource.rb
-                 lib/restclient/mixin/response.rb
+                 lib/restclient/raw_response.rb lib/restclient/exceptions.rb
+                 lib/restclient/resource.rb lib/restclient/mixin/response.rb
                  spec/base.rb spec/request_spec.rb spec/response_spec.rb
-                 spec/exceptions_spec.rb spec/resource_spec.rb spec/restclient_spec.rb
+                 spec/exceptions_spec.rb spec/resource_spec.rb
+                 spec/restclient_spec.rb
                  bin/restclient)
     s.executables = ['restclient']
     s.require_path = "lib"
